@@ -81,7 +81,7 @@
         </section>
         <section class="page-section">
             <div class="container">
-                <div class="shopenvir">
+                <div class="product-item">
                     <div class="product-item-title d-flex">
                         <div class="bg-faded p-5 d-flex me-auto rounded">
                             <h2 class="section-heading mb-0">
@@ -89,15 +89,36 @@
                             </h2>
                         </div>
                     </div>
-                    <div class="lSSlideWrapper usingCss" style="transition-duration: 400ms; transition-timing-function: ease;">
-                      <ul class="sli lightSlider lSSlide lsGrab" id="lightSlider" style="width: 5026px; transform: translate3d(-1436px, 0px, 0px); height: 360px; padding-bottom: 0%;">
-                        <li class="sli clone left" style="width: 718px; margin-right: 0px;">
-                          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" width="640" height="480" src="assets/img/shop1_look1" alt="店鋪環境">
-                        </li>
-                        <li class="sli clone left" style="width: 718px; margin-right: 0px;">
-                          <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" width="640" height="480" src="assets/img/shop1_look2" alt="店鋪環境">
-                        </li>
-                      </ul>
+                    <div class="slideshow-container d-flex ms-auto">
+                      <div class="mySlides fade bg-faded p-5 rounded">
+                        <div class="numbertext">1 / 5</div>
+                        <img src="assets/img/shop1_look1.jpeg" alt="店鋪環境" style="width:100%">
+                      </div>
+                      <div class="mySlides fade bg-faded p-5 rounded">
+                        <div class="numbertext">2 / 5</div>
+                        <img src="assets/img/shop1_look2.jpeg" alt="店鋪環境" style="width:100%">
+                      </div>
+                      <div class="mySlides fade bg-faded p-5 rounded">
+                        <div class="numbertext">3 / 5</div>
+                        <img src="assets/img/shop1_look3.jpeg" alt="店鋪環境" style="width:100%">
+                      </div>
+                      <div class="mySlides fade bg-faded p-5 rounded">
+                        <div class="numbertext">4 / 5</div>
+                        <img src="assets/img/shop1_look4.jpeg" alt="店鋪環境" style="width:100%">
+                      </div>
+                      <div class="mySlides fade bg-faded p-5 rounded">
+                        <div class="numbertext">5 / 5</div>
+                        <img src="assets/img/shop1_look5.jpeg" alt="店鋪環境" style="width:100%">
+                      </div>
+                      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentslide(1)"></span>
+                      <span class="dot" onclick="currentslide(2)"></span>
+                      <span class="dot" onclick="currentslide(3)"></span>
+                      <span class="dot" onclick="currentslide(4)"></span>
+                      <span class="dot" onclick="currentslide(5)"></span>
                     </div>
                     <div class="product-item-description d-flex ms-auto">
                         <div class="bg-faded p-5 rounded"><p class="mb-0">Our seasonal menu features delicious snacks, baked goods, and even full meals perfect for breakfast or lunchtime. We source our ingredients from local, oragnic farms whenever possible, alongside premium vendors for specialty goods.</p></div>
