@@ -18,29 +18,29 @@ body{
 
 /* Next & previous buttons */
 a.prev, a.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+  cursor: pointer !important;
+  position: absolute !important;
+  top: 50% !important;
+  width: auto !important;
+  margin-top: -22px !important;
+  padding: 16px !important;
+  color: white !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+  transition: 0.6s ease !important;
+  border-radius: 0 3px 3px 0 !important;
+  user-select: none !important;
 }
 
 /* Position the "next button" to the right */
 a.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+  right: 0 !important;
+  border-radius: 3px 0 0 3px !important;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 a.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.8) !important;
 }
 
 /* Caption text */
@@ -56,11 +56,11 @@ a.prev:hover, .next:hover {
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+  color: #f2f2f2 !important;
+  font-size: 12px !important;
+  padding: 8px 12px !important;
+  position: absolute !important;
+  top: 0 !important;
 }
 
 /* The dots/bullets/indicators */
