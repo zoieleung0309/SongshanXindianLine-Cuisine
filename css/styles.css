@@ -3687,7 +3687,7 @@ textarea.form-control-lg {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #e6a756;
+  background-color: ##d1ede1;
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #adb5bd;
@@ -7333,7 +7333,7 @@ textarea.form-control-lg {
 
 /* rtl:end:remove */
 .text-primary {
-  color: #46C393 !important;
+  color: #003E19 !important;
 }
 
 .text-secondary {
@@ -10845,7 +10845,7 @@ p {
 }
 
 .text-faded {
-  color: #5CD5B3;
+  color: #028c6a;
 }
 
 .site-heading {
@@ -10886,7 +10886,7 @@ p {
 }
 
 .bg-faded {
-  background-color: #CFE7DF;
+  background-color: ##d1ede1;
 }
 
 .btn-xl {
@@ -10899,7 +10899,7 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(50, 205, 162, 0.9);
+  background-color: rgba(120, 197, 174, 0.9);
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand {
@@ -10963,7 +10963,7 @@ p {
 }
 
 .footer {
-  background-color: rgba(50, 205, 162, 0.9);
+  background-color: rgba(120, 197, 174, 0.9);
 }
 
 .intro {
