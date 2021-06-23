@@ -208,10 +208,10 @@ sup {
 }
 
 a {
-  color: #e6a756;
+  color: #003E19;
 }
 a:hover {
-  color: #b88645;
+  color: #d1ede1;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3850,7 +3850,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #e6a756;
+  color: #028c6a;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
