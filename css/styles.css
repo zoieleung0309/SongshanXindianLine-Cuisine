@@ -3673,11 +3673,11 @@ textarea.form-control-lg {
   padding: 0.25rem 1rem;
   clear: both;
   font-weight: 400;
-  color: 	#d1ede1;
+  color: 	#212529;
   text-align: inherit;
   text-decoration: none;
   white-space: nowrap;
-  background-color: rgba(120, 197, 174, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   border: 0;
 }
 .dropdown-item:hover, .dropdown-item:focus {
